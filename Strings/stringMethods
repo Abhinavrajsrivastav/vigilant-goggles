@@ -1,0 +1,28 @@
+
+
+//some String class methods
+
+
+// String  str = "Hello";
+
+//1. str.charAt(index)
+//2. str.concat("World")
+//3. str.contains("Hello") -> true
+//4. str.endsWith("o") -> true
+//5. str.equals("Hello") -> true
+//7. str.indexOf("l") -> 2
+//8. str.isEmpty() -> false
+//9. str.length() -> 5
+//10. str.replace("l", "L") -> HeLLo
+//11. str.substring(2) -> llo, 2 -> starting index
+//12. str.toLowerCase() -> hello
+//13. str.toUpperCase() -> HELLO
+//14. str.trim() -> Hello , ()-> remove white spaces
+//16. str.toCharArray() -> {'H', 'e', 'l', 'l', 'o'}
+//17. str.startsWith("H") -> true
+//18. str.lastIndexOf("l") -> 3
+//19. str.compareTo("Hello") -> 0, 1-> if str > "Hello", -1-> if str < "Hello"
+//21. str.split("l") -> {"He", "", "o"}
+//23. str.format("Hello %s", "World") -> Hello World
+//30. str.getBytes() -> [72, 101, 108, 108, 111], ASCII values
+//32. Interger.toBinaryString(10) -> 1010
