@@ -1,0 +1,26 @@
+//Methods associated with file class:
+
+// 1. createNewFile() - creates a new file
+// 2. delete() - deletes the file
+// 3. exists() - checks if file exists
+// 4. getName() - returns the name of the file
+// 5. getParent() - returns the name of the parent directory
+// 6. getPath() - returns the path of the file
+// 7. isFile() - checks if it is a file
+// 8. isDirectory() - checks if it is a directory
+// 9. list() - returns an array of files in the directory
+// 10. mkdir() - creates a directory
+// 11. renameTo(File) - renames the file
+// 12. length() - returns the size of the file in bytes 
+// 13. lastModified() - returns the time the file was last modified
+// 14. canRead() - checks if the file can be read
+// 15. canWrite() - checks if the file can be written
+// 16. isHidden() - checks if the file is hidden
+// 17. deleteOnExit() - deletes the file when the JVM exits
+// 18. listFiles() - returns an array of files in the directory
+// 19. mkdirs() - creates a directory and its parent directories
+// 20. setReadOnly() - sets the file to read-only
+// 21. setWritable() - sets the file to writable
+// 22. setReadable() - sets the file to readable
+// 23. setExecutable() - sets the file to executable
+// 24. setLastModified() - sets the time the file was last modified
