@@ -1,10 +1,7 @@
-
-
 import java.util.*;
 import java.util.Collections;
-
 class Students implements Comparable<Students>{
-     private String name;
+    private String name;
     private int age;
     private int score;
 
@@ -13,7 +10,6 @@ class Students implements Comparable<Students>{
         this.age = age;
         this.score = score;
     }
-
     public String getName() {
         return name;
     }
@@ -25,7 +21,14 @@ class Students implements Comparable<Students>{
     public int getScore() {
         return score;
     }
+    
+    public int compareTo(Students s){
+        if (this.age > s.age)
+        return 1;
+        else 
+        return -1;
 
+    }
     @Override
     public String toString() {
         return "Student{" +
@@ -35,12 +38,6 @@ class Students implements Comparable<Students>{
                 '}';
     }
 
-    public int compareTo(Students s){
-        if (this.age > s.age)
-        return 1;
-        else 
-        return -1;
-    }
 }
 
 
