@@ -9,6 +9,8 @@ public class File2 {
         student.createNewFile();
 
         int count = 0;
+
+        // List all files in the directory
         String[] list = file.list();
 
         if (list != null) {
