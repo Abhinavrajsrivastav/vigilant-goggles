@@ -1,0 +1,9 @@
+
+1. Wrapper classes ?
+
+Wrapper classes in Java are the Object representation of eight primitive types in Java. 
+All the wrapper classes in java are immutable and final. 
+Java provides wrapper classes for each of the primitive data types. 
+These are used to create objects instead of primitive data types.
+Use to make an java Application 100% object oriented application.
+
