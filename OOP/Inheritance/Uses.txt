@@ -1,0 +1,5 @@
+
+
+//1. Pollymorphisme
+//2. Specific Method and Properties access become possible
+//3. Code Reusability

@@ -4,6 +4,11 @@ class Without_newKeyword {
     public static void main(String[] args) {
         String s = "Hello";
         String t = "Hello";
+        
+        //Equal refference will be printed...
+        if(s==t) System.out.println("equal refference");
+        else System.out.println("not equal refference");
+        
         //same hashcode will be printed for both s and t
         //because in SCP region only one object is created, duplicates are not allowed....
         System.out.println(t.hashCode());

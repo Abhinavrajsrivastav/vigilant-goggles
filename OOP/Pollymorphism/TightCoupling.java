@@ -5,7 +5,6 @@ class ShoppingCart {
     private Item item;
 
     public ShoppingCart() {
-        // Instantiate a specific item (dependency)
         this.item = new Item();
     }
 

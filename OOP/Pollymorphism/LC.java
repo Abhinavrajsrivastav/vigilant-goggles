@@ -1,5 +1,5 @@
 
-// Interface representing a MediaPlayer
+// Interface representing Musics Player
 interface MediaPlayer {
     void play();
 }
