@@ -1,5 +1,7 @@
 import java.util.Date;
 
+//Date is an class provided by java.util package
+
 
 public class DateExample {
     public static void main(String[] args) {
