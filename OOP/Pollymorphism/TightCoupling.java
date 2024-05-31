@@ -1,43 +1,40 @@
-// TightCouplingExample.java
+package Pollymorphism;
 
-// Class representing a shopping cart
-class ShoppingCart {
-    private Item item;
-
-    public ShoppingCart() {
-        this.item = new Item();
-    }
-
-    public void displayItemDetails() {
-        // Accessing item details directly
-        System.out.println("Item name: " + item.getName());
-        System.out.println("Item price: " + item.getPrice());
+class MusicPlayer {
+    public void play() {
+        System.out.println("Playing music...");
     }
 }
 
-// Class representing an item
-class Item {
-    private String name;
-    private double price;
+class MoviePlayer {
+    public void play() {
+        System.out.println("Playing movie...");
+    }
+}
 
-    public Item() {
-        this.name = "Example Item";
-        this.price = 10.0;
+class MediaController {
+    private MusicPlayer musicPlayer;
+    private MoviePlayer moviePlayer;
+
+    public MediaController() {
+        this.musicPlayer = new MusicPlayer();
+        this.moviePlayer = new MoviePlayer();
     }
 
-    public String getName() {
-        return name;
+    public void playMusic() {
+        musicPlayer.play();
     }
 
-    public double getPrice() {
-        return price;
+    public void playMovie() {
+        moviePlayer.play();
     }
 }
 
 public class TightCoupling {
     public static void main(String[] args) {
-        // Creating a shopping cart
-        ShoppingCart cart = new ShoppingCart();
-        cart.displayItemDetails();
+        MediaController mediaController = new MediaController();
+
+        mediaController.playMusic(); // Playing music...
+        mediaController.playMovie(); // Playing movie...
     }
 }
