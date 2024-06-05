@@ -1,3 +1,8 @@
+
+package Enum;
+
+import java.util.*;
+
 public class Enums1 {
     enum Din{
 
@@ -33,10 +38,10 @@ public class Enums1 {
         }
     }
     public static void main(String[] args) {
-        // Din day = Din.SOMWAR;
-        // System.out.println(day); 
+        Din day = Din.SOMWAR;
+        System.out.println(day); 
 
-        Din.SOMWAR.setAns(20);
+        // Din.SOMWAR.setAns(20);
         // int val = Din.SOMWAR.getAns();
         // System.out.println(val);
 

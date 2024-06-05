@@ -1,7 +1,9 @@
+
+package Enum;
+
+
 enum Exam{
     PASS, FAIL, PROMOTED, SUPPLEMENTARY;
-
-    
 }
 public class Switch {
     public static void main(String[] args) {

@@ -1,3 +1,6 @@
+
+package Enum;
+
 class Enums{
 
     public enum Day{
@@ -16,6 +19,7 @@ class Enums{
 
 //Enum-------------------
 
+//Enum is predefined set of constants.
 //1. An enum (short for "enumeration") in Java is a special data type that 
 //2. enables a variable to be a set of predefined constants.
 //3. We can use enum to define named constant.
