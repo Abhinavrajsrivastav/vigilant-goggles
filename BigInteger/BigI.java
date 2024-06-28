@@ -30,10 +30,15 @@ public class BigI {
         // BigInteger b19 = b1.not();
          
 
-        System.out.println(b1);
-        System.out.println(b2);
-        System.out.println(b3);
-        System.out.println(b4);
+        // System.out.println(b1);
+        // System.out.println(b2);
+        // System.out.println(b3);
+        // System.out.println(b4);
+
+        BigInteger x = new BigInteger("123");
+        
+        long y = x.longValue();
+        System.out.println(y);
     }
 
 }
