@@ -8,6 +8,7 @@ public class File3 {
         File student = new File(file, "Student.txt");
         student.createNewFile();
 
+        //FileWriter is used to write characters to a file
         FileWriter fw = new FileWriter(student,true);
         fw.write("This is Abhinav");
         fw.write("\n");

@@ -10,3 +10,5 @@ public class AnnonymousInner {
         System.out.println("Main Thread");
     }
 }
+
+//annonymous inner class is a class that is declared and instantiated at the same time

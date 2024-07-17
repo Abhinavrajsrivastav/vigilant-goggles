@@ -7,6 +7,7 @@ public class File7 {
         File file = new File("Data");
         File student = new File(file, "Student.txt");
 
+        //printwriter is used to write formatted text to a file
         try(PrintWriter pw = new PrintWriter(new FileWriter(student))){
             pw.println("This is Abhinav");
             pw.println("This is a new line");
