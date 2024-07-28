@@ -1,0 +1,28 @@
+
+1. Equals method - 
+int[] numbers1 = {1, 2, 3};
+int[] numbers2 = {1, 2, 3};
+boolean isEqual = Arrays.equals(numbers1, numbers2); // isEqual will be true
+
+
+2. CopyOf Method
+int[] numbers = {1, 2, 3};
+int[] newNumbers = Arrays.copyOf(numbers, 5); // newNumbers will be [1, 2, 3, 0, 0]
+
+3. toString Method
+int[] numbers = {1, 2, 3};
+String arrayString = Arrays.toString(numbers); // arrayString will be "[1, 2, 3]"
+
+4. asList Method 
+String[] names = {"Alice", "Bob", "Charlie"};
+List<String> list = Arrays.asList(names); // list will be ["Alice", "Bob", "Charlie"]
+
+
+5.what is stream in java 
+Stream represents a sequence of objects from a source, 
+which supports aggregate operations. Following are the characteristics of a Stream.
+
+example - 
+List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+Stream<Integer> stream = list.stream();
+stream.forEach(p -> System.out.println(p));

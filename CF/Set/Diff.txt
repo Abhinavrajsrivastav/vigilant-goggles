@@ -1,0 +1,30 @@
+//difference between Hashset, LinkedHashSet, SortedSet and TreeSet - 
+
+//HashSet - unordered, unsorted, unindexed
+//LinkedHashSet - ordered, unsorted, unindexed
+//SortedSet - sorted unindexed
+//TreeSet - sorted, indexed
+
+//Hashset - null values allowed, not synchronized, no duplicate values
+//LinkedHashSet - null values allowed, not synchronized, no duplicate values
+//SortedSet - null values allowed, not synchronized, no duplicate values
+//TreeSet - null values allowed, not synchronized, no duplicate values
+
+//Hashset - faster than LinkedHashSet, slower than TreeSet
+//LinkedHashSet - slower than HashSet, faster than TreeSet
+//SortedSet - slower than HashSet, slower than LinkedHashSet and TreeSet
+//TreeSet - faster than HashSet, faster than LinkedHashSet and SortedSet
+
+//Hashset - uses hash table to store elements
+//LinkedHashSet - uses hash table and linked list to store elements
+//SortedSet - uses red-black tree to store elements
+
+//Hashset - no guarantee of order of elements
+//LinkedHashSet - maintains insertion order of elements
+//SortedSet - maintains ascending order of elements
+//TreeSet - maintains ascending order of elements
+
+//Hashset - uses equals() method to compare elements
+//LinkedHashSet - uses equals() method to compare elements
+//SortedSet - uses compareTo() method to compare elements
+//TreeSet - uses compareTo() method to compare elements
