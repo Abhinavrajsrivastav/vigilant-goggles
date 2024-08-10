@@ -51,5 +51,6 @@ public class Enums1 {
         //3. a constructor
         //4. a class
         //5. an interface
+        float d[] = {1,2,3};
     }
 }
