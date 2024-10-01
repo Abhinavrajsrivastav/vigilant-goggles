@@ -1,0 +1,13 @@
+
+In Java, an enum (short for "enumeration") is a special data type 
+that allows a variable to be one of a predefined set of constants. 
+It is used to define a collection of constants that are often related
+to each other.
+
+
+///Features of Enum...
+1. Constants: An enum defines a fixed set of constants, which are static and final (i.e., immutable).
+2. Type Safety:
+3. Readable Code:
+4. Methods in Enums:
+5. Used in Switch Statements:
