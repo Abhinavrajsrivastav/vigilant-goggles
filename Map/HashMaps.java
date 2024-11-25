@@ -3,7 +3,6 @@ import java.util.Map;
 
 public class HashMaps {
     public static void main(String[] args) {
-        // Step 1: Create and populate the map
         Map<String, Integer> map = new HashMap<>();
         map.put("Apple", 10);
         map.put("Banana", 20);
