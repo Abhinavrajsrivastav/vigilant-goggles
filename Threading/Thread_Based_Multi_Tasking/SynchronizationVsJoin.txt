@@ -1,0 +1,11 @@
+Synchronization ensures that only one thread can access a critical section of code (or shared resource) 
+at a time, preventing simultaneous access by multiple threads. 
+This prevents data corruption or inconsistency caused by concurrent access. 
+However, synchronization does not inherently dictate the order in which threads execute; 
+it merely enforces mutual exclusion to maintain data integrity.
+
+
+On the other hand, the join() method is used to coordinate the order of execution among 
+multiple threads. It allows one thread to wait for another thread to complete its task before
+proceeding further. This ensures that the execution of one thread is completed before the
+next one starts, thus controlling the flow of execution in a multithreaded program.

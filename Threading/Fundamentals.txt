@@ -1,0 +1,37 @@
+------------------->>>>Questions on Mutli Threading<-------------------
+
+
+---------------->Level 0<----------------
+
+1. Process - A process is a software/program which is in execution.
+It is the 'running' form of a program
+
+2. Contact Switching - The process of switching from one process to 
+another is called context switching
+
+3. Thread - A thread is a smallest unit of processing that can be performed, 
+Java provide a line of execution, wchich can be treated as a thread
+
+4. Java provide a default thread called - (default name, can be changed) main thread (default priority 5, can be changed)
+
+5. can a thread name and priority be changed? - Yes
+
+6. can a main thread name and priority be changed? - Yes
+
+7. all thread methods are static in nature
+
+---------------->Level 1<----------------
+
+0. Runnable Interface - It is a functional interface, which is used to create a thread
+
+1. Thread class - It is a class in ""java.lang package"", it implements Runnable interface
+
+2. Thread scheduler(Boss of all thread) - It is a part of JVM, which decides which thread to run first
+
+3. Race condition Problem - when multiple thread are racing to access the same resource, then this problem occurs
+
+4. How to avoid race condition problem - By using synchronized keyword 
+
+5. synchronized - either on the method or on making a block as a synchronized block
+
+6. Deadlocak - when two threads are waiting for each other to release the resource, then this problem occurs
