@@ -95,5 +95,7 @@ public class SApi {
 
         // 27. flatMap() - to convert stream of streams to stream
         // Stream<Integer> s2 = s1.flatMap(n->Stream.of(n,n+1));
+
+        // 28. distinct() - to remove duplicates
     }
 }
