@@ -27,7 +27,7 @@ public class Example {
 
         // Serialization
         try {
-            FileOutputStream fileOut = new FileOutputStream("person.ser");
+            FileOutputStream fileOut = new FileOutputStream("per.ser");
             ObjectOutputStream out = new ObjectOutputStream(fileOut);
             // Serialize the object
             out.writeObject(person);
@@ -40,7 +40,7 @@ public class Example {
 
         // Deserialization
         try {
-            FileInputStream fileIn = new FileInputStream("person.ser");
+            FileInputStream fileIn = new FileInputStream("per.ser");
             ObjectInputStream in = new ObjectInputStream(fileIn);
             Person deserializedPerson = (Person) in.readObject();
             in.close();

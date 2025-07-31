@@ -6,6 +6,7 @@ public class SApi {
     public static void main(String[] args) {
         Stream<Integer> s1 = Stream.of(1, 2, 3, 4, 5);
 
+        
         // ArrayList<Integer> li = Arrays.asList(1,2,3,4);
         // Stream<Integer> s2 = li.stream();
 

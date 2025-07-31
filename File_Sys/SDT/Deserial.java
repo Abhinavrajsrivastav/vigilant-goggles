@@ -1,7 +1,7 @@
 package SDT;
 
-import SDT.Arun;
-import SDT.Serial;
+// import SDT.Arun;
+// import SDT.Serial;
 import java.io.*;
 public class Deserial {
     public static void main(String[] args) throws IOException, ClassNotFoundException{
